@@ -22,8 +22,7 @@ class RegistrationController extends Controller
         $validateFields = array('id' => $id) + $validateFields;
         $user = User::create($validateFields);
         if ($user) {
-            $remember = $request->only(['remember']);
-            Auth::login($user, $remember);
+            Auth::login($user, $request->remember);
             $json = json_encode(array('language' => "ru"));
             Redis::set($user->id, $json);
             return redirect(route('user.profile'));
