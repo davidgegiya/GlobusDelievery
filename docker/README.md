@@ -10,7 +10,7 @@
 
 Содержимое [папки mysql](https://github.com/DavidaaWoW/GlobusDelievery/blob/master/mysql/init.sql) перекидываем в внутреннюю директорию контейнера, в которой скрипты выполняются автоматически.
 
-В файле ```init.sql``` создаётся БД, сообщается об использовании базы GlobusDelievery, также происходит создание триггеров, и импорт данных из CSV файлов ~~подробнее тут~~
+В файле ```init.sql``` создаётся БД, сообщается об использовании базы GlobusDelievery, также происходит создание триггеров, и импорт данных из CSV файлов про который далее рассказано [здесь](https://github.com/DavidaaWoW/GlobusDelievery/tree/master/database/source)
 
 ## Apache
 
