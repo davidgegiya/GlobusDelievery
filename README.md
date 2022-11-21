@@ -23,15 +23,15 @@
 
 ### Содержание
 
-+ ~~[Docker](https://github.com/DavidaaWoW/LaravelCarServiceApplication/tree/main/docker)~~
-+ ~~[Работа с БД](https://github.com/DavidaaWoW/LaravelCarServiceApplication/tree/main/database)~~
-+ ~~[Модели](https://github.com/DavidaaWoW/LaravelCarServiceApplication/tree/main/app/Models)~~
-+ ~~[Контроллеры](https://github.com/DavidaaWoW/LaravelCarServiceApplication/tree/main/app/Http/Controllers)~~
-+ ~~[Пути(Routing)](https://github.com/DavidaaWoW/LaravelCarServiceApplication/tree/main/routes)~~
-+ ~~[View. Шаблоны Blade](https://github.com/DavidaaWoW/LaravelCarServiceApplication/tree/main/resources/views)~~
-+ ~~[Локализация](https://github.com/DavidaaWoW/LaravelCarServiceApplication/tree/main/lang)~~
-+ ~~[Глобальные темы пользователей](https://github.com/DavidaaWoW/LaravelCarServiceApplication/tree/main/public/themes)~~
-+ ~~[Администрирование интернет-ресурса](https://github.com/DavidaaWoW/LaravelCarServiceApplication/tree/main/resources/views/admin)~~
++ ~~[Docker]()~~
++ ~~[Работа с БД]()~~
++ ~~[Модели]()~~
++ ~~[Контроллеры]()~~
++ ~~[Пути(Routing)]()~~
++ ~~[View. Шаблоны Blade]()~~
++ ~~[Локализация]()~~
++ ~~[Глобальные темы пользователей]()~~
++ ~~[Администрирование интернет-ресурса]()~~
 
 ## Авторские права
 
