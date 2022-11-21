@@ -1,0 +1,23 @@
+version: "3.8"
+services:
+    db:
+        image: "mysql:latest"
+        command: --default-authentication-plugin=mysql_native_password
+        restart: always
+        environment:
+            MYSQL_ROOT_PASSWORD: "1"
+        volumes:
+            - ./mysql:/docker-entrypoint-initdb.d
+            - ./database/source:/source
+        ports:
+            - "3306"
+    apache:
+        build:
+            context: ./docker
+            dockerfile: Apache.Dockerfile
+        volumes:
+            - ./:/var/www/laravel-docker
+        ports:
+            - 81:80
+    redis:
+        image: "redis:latest"
