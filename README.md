@@ -28,7 +28,7 @@
 + [Работа с БД](https://github.com/DavidaaWoW/GlobusDelievery/tree/master/database)
 + [Модели](https://github.com/DavidaaWoW/GlobusDelievery/tree/master/app/Models)
 + [Контроллеры](https://github.com/DavidaaWoW/GlobusDelievery/tree/master/app/Http/Controllers)
-+ ~~[Пути(Routing)]()~~
++ [Пути(Routing)](https://github.com/DavidaaWoW/GlobusDelievery/tree/master/routes)
 + ~~[View. Шаблоны Blade]()~~
 + ~~[Middleware]()~~
 + ~~[Providers+Composers]()~~
