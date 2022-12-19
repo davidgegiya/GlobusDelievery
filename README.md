@@ -30,7 +30,7 @@
 + [Контроллеры](https://github.com/DavidaaWoW/GlobusDelievery/tree/master/app/Http/Controllers)
 + [Пути(Routing)](https://github.com/DavidaaWoW/GlobusDelievery/tree/master/routes)
 + [View. Шаблоны Blade](https://github.com/DavidaaWoW/GlobusDelievery/tree/master/resources/views)
-+ ~~[Middleware]()~~
++ [Middleware](https://github.com/DavidaaWoW/GlobusDelievery/tree/master/app/Http/Middleware)
 + ~~[Providers+Composers]()~~
 
 ## Авторские права
