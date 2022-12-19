@@ -5,7 +5,7 @@
 
 # Аутентификация
 
-За работу аутентификации отвечают [RegistrationController](https://github.com/DavidaaWoW/LaravelCarServiceApplication/blob/main/app/Http/Controllers/RegistrationController.php) и [LoginController](https://github.com/DavidaaWoW/LaravelCarServiceApplication/blob/main/app/Http/Controllers/LoginController.php)
+За работу аутентификации отвечают [RegistrationController](https://github.com/DavidaaWoW/GlobusDelievery/blob/master/app/Http/Controllers/RegistrationController.php) и [LoginController](https://github.com/DavidaaWoW/GlobusDelievery/blob/master/app/Http/Controllers/LoginController.php)
 
 В контроллере регистрации присутствует единственный метод save, который в параметрах получает входящий запрос
 
