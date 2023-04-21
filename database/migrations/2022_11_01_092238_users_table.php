@@ -23,7 +23,7 @@ return new class extends Migration
             $table->string('username');
             $table->string('address');
             $table->timestamps();
-            $table->foreign('current_order')->references('id')->on('orders');
+//            $table->foreign('current_order')->references('id')->on('orders');
         });
     }
 

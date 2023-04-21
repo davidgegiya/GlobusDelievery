@@ -48,7 +48,7 @@ return [
             'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', 'db'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'GlobusDelievery'),
+            'database' => env('DB_DATABASE', 'globusdelivery'),
             'username' => env('DB_USERNAME', 'root'),
             'password' => env('DB_PASSWORD', '1'),
             'unix_socket' => env('DB_SOCKET', ''),
