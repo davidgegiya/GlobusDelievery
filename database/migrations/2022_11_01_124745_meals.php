@@ -18,8 +18,9 @@ return new class extends Migration
             $table->string('restaurant_id')->nullable(false);
             $table->string('category_id')->nullable();
             $table->float('price');
+            $table->string('weight')->nullable();
             $table->string('name')->nullable(false);
-            $table->string('image');
+            $table->text('image');
             $table->string('restaurant_name');
             $table->string('category_name');
             $table->timestamps();

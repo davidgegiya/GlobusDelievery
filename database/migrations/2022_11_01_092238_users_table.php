@@ -19,9 +19,9 @@ return new class extends Migration
             $table->string('password')->nullable(false);
             $table->string('current_order')->nullable();
             $table->rememberToken();
-            $table->string('phone');
-            $table->string('username');
-            $table->string('address');
+            $table->string('phone')->nullable();
+            $table->string('username')->nullable();
+            $table->string('address')->nullable();
             $table->timestamps();
 //            $table->foreign('current_order')->references('id')->on('orders');
         });

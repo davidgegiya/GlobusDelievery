@@ -6,6 +6,7 @@ use App\Models\Category;
 use App\Models\Meal;
 use App\Models\Restaurant;
 use Illuminate\Http\Request;
+use Inertia\Inertia;
 
 class MealCategoriesController extends Controller
 {
@@ -15,8 +16,8 @@ class MealCategoriesController extends Controller
         $catList = Category::where('restaurant_name', '=', $name)->get();
         $mealList = [];
         foreach ($catList as $cat) {
-            array_push($mealList, Meal::where('category_id', '=', $cat->id)->get());
+            $cat->meals = Meal::where('category_id', '=', $cat->id)->get();
         }
-        return view('user.rest_content', ['categories' => $catList, 'meals' => $mealList, 'rest_name' => $name]);
+        return Inertia::render('RestContent', ['categories' => $catList, 'rest_name' => $name]);
     }
 }

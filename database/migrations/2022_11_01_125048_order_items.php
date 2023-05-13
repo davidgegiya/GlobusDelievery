@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('order_id')->nullable(false);
             $table->string('user_id')->nullable(false);
             $table->string('meal_id')->nullable(false);
-            $table->integer('count');
+            $table->integer('count')->nullable();
             $table->timestamps();
             $table->foreign('order_id')->references('id')->on('orders');
             $table->foreign('user_id')->references('id')->on('users');
